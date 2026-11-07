@@ -1,0 +1,36 @@
+STDOUT:
+Checking input data.
+All inputs are already processed.
+Processing 0 inputs with 0 threads.
+Found 1 existing predictions, will override.
+Running structure prediction for 1 input.
+
+Predicting: |          | 0/? [00:00<?, ?it/s]
+Predicting:   0%|          | 0/1 [00:00<?, ?it/s]
+Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Predicting DataLoader 0: 100%|██████████| 1/1 [02:04<00:00,  0.01it/s]Number of failed examples: 0
+
+Predicting DataLoader 0: 100%|██████████| 1/1 [02:04<00:00,  0.01it/s]
+
+Predicting property: affinity
+
+Checking input data for affinity.
+Found existing affinity predictions, will override.
+Running affinity prediction for 1 input.
+
+Predicting: |          | 0/? [00:00<?, ?it/s]
+STDERR:
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/usr/local/lib/python3.12/dist-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+2026-11-07 09:40:29.137925: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/usr/local/lib/python3.12/dist-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/usr/local/lib/python3.12/dist-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]

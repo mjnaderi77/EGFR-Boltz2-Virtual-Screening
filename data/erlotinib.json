@@ -1,0 +1,7 @@
+{
+    "name": "Erlotinib",
+    "pdb_ligand_id": "AQ4",
+    "smiles": "COCCOc1cc2ncnc(Nc3cccc(c3)C#C)c2cc1OCCOC",
+    "formula": "C22H23N3O4",
+    "source": "RCSB PDB"
+}
