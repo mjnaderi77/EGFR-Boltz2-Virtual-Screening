@@ -1,5 +1,6 @@
 # EGFR-Boltz2-Virtual-Screening
 Deep learning-based EGFR–ligand structural prediction and virtual screening
+MY notebook availabe at https://colab.research.google.com/drive/1uk6XRdTl-7858l0b_MtlwgE2YyWWxOzy#scrollTo=JZZtKC7TfS0H
 # EGFR–Erlotinib Structural Prediction and Validation Using Boltz-2
 
 ## Project Overview
